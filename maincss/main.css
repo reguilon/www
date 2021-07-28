@@ -1,0 +1,111 @@
+.visual p{color: #fff; position: absolute; right: 550px; top: 300px; text-align: center;}
+.visual span:nth-of-type(1){font-size: 36px;}
+.visual span:nth-of-type(2){font-size: 55px; font-weight: 600;}
+.visual span:nth-of-type(3){font-size: 20px; font-weight: 700; display: inline-block; margin-top: 20px;}
+
+.visual{position:relative;left:0; top:0; overflow:hidden; width: 2000px; left: 50%; margin-left: -1000px; height:940px; margin-top: 224px;}
+.visual ul li{list-style:none; }
+.visual .link1,.visual .link2,.visual .link3{display:none}
+
+.dock{width:180px; height: 26px; position:absolute; left:785px; top:1100px;}
+
+.dock span.mbutton{ margin-right:15px; cursor:pointer; 
+    display:block; float:left; width:20px; height:20px; 
+    border: rgb(255, 255, 255); border-radius: 10px; background: rgb(255, 255,255);}
+
+.dock .ps{ margin-right:15px; margin-top: -3px; cursor:pointer; 
+    display:block; float:left; width:25px; height:25px; background: url(../images/stop.jpg);
+    }
+
+
+
+
+
+#content{ display: block;}
+#content .introduce{width: 1200px; display: block; position: relative; margin: 0 auto 100px;}
+
+#content .introduce h3{font-size: 3.75em;  text-align: center; margin:100px 0 25px 0;}
+
+#content .introduce p{color:#666; font-size: 18px; font-weight: 700; text-align: center; margin-bottom: 25px;}
+
+
+#content .introduce ul{display: block; width: 1200px; height: 428px; overflow: hidden;}
+#content .introduce li{width: 300px; height: 428px; box-sizing: border-box; border: 1px solid #e7e7e7; border-right:0px; position: relative; float: left;}
+#content .introduce li:last-child{border-right: 1px solid #e7e7e7; }
+#content .introduce li img{width: 300px; height: 310px;}
+
+#content .introduce dl{width: 300px; height: 310px; background:rgba(4,63,103); color:#fff; position: absolute; left: 0; top: 310px;
+                       transition: all .5s;}
+#content .introduce li:hover dl{top: 0; height: 428px; background:rgba(4, 63, 103, 0.7); }
+#content .introduce dt{font-weight: 700; font-size: 30px; text-align: center; line-height: 115px; margin: 0;}
+#content .introduce dd{font-weight: 700; font-size: 18px; line-height: 1.5em; margin: 15px; text-align: justify;}
+
+#content .product{width: 1200px; margin: 0 auto 200px; overflow: hidden;}
+#content .product h3{text-align: center; font-weight: 700; font-size: 60px; margin-bottom: 100px;}
+#content .product img{width: 600px; height:380px; float: left; box-shadow: 10px 10px 10px #666; transition: all .5s;}
+#content .product img:hover{transform: scale(1.1);}
+#content .product .reinfor_cement,.coldroll,.later_edition{font-size: 48px; font-weight: 700; width: 600px; float: right; color:#666; box-sizing: border-box; padding-left: 45px;}
+#content .product p{font-size: 18px; color:#666; line-height: 2em; width: 600px; float: right; box-sizing: border-box; padding-left: 45px; padding-top: 20px; text-align: justify;
+margin-bottom: 200px;}
+.product input[id*="slide"]{display: none;}
+.product .slidewrap{max-width: 1200px; margin: 0 auto; overflow: hidden;}
+.product .slidelist{white-space: nowrap; font-size: 0;}
+.product .slidelist li{display: inline-block; vertical-align: middle; width: 100%; transition: all .5s;}
+.product .slidelist li a{display: block; position: relative;}
+.product .slidelist li a .box1{width: 100%;}
+.product .slidelist li a .box2{width: 100%;}
+.product .slidelist li a .box3{width: 100%;}
+.product .slidelist label{position: absolute; z-index: 10; top: 330px; transform: translateY(-50%); padding: 50px; cursor: pointer;}
+.product .slidelist .left{left: 650px; background: url(../images/al.png) center center / 100% no-repeat;}
+.product .slidelist .right{right: 0; background: url(../images/ar.png) center center / 100% no-repeat;}
+.product [id="slide01"]:checked ~ .slidewrap .slidelist li {transform: translateX(0%);}
+.product [id="slide02"]:checked ~ .slidewrap .slidelist li {transform: translateX(-100%);}
+.product [id="slide03"]:checked ~ .slidewrap .slidelist li {transform: translateX(-200%);}
+
+#content .communication{overflow:hidden; height: 450px; background-color: #f7f7f7; padding-top: 100px; transition: all .5s; margin-bottom: 100px;}
+#content .communication_inner{width: 1200px; margin:0 auto;}
+#content .communication a:hover{color: #f07800; transform: scale(1.1);}
+#content .communication dt{font-size: 60px; font-weight: 700; margin: 0 0 50px 30px; color:#666;}
+#content .communication dt i{font-size: 30px; margin-left: 220px;}
+#content .communication .title{font-size: 20px;}
+#content .communication dd{margin:0 30px 20px 30px; color:#666; line-height: 2em;}
+#content .news{float: left; width: 48%; position: relative; height: 430px;}
+#content .communication h3{font-size: 60px; font-weight: 700; margin: 0 0 50px 30px; color:#666;}
+/* #content .news a{position: absolute; right: 40px; top: 30px;} */
+#content .notice{float: left; width: 48%; position: relative;}
+/* #content .notice a{position: absolute; right: 40px; top: 30px;} */
+#content .communication i{font-size: 30px;}
+.news,.notice{width:48%; margin:0 1%; float:left; border:1px solid #999; 
+	       padding:15px; box-sizing:border-box; position: relative;}
+           .communication li{line-height: 2em; overflow: hidden; font-size: 17px; margin-left: 30px; padding-bottom:5px;}
+           .communication li span{float: right; color: #333; font-size: 20px; margin-right: 10px;}
+           .communication .more{display: block;position: absolute; right:5px; top:5px}
+
+#content .social_value{width: 1200px; margin:0 auto 100px; overflow:hidden; height: 909px;}
+#content .social_value h3{font-size: 60px; font-weight: 700; text-align: center; margin-bottom: 35px;}
+#content .social_value .society{position: relative; transition: 0.5s all; float: left; width: 400px;}
+#content .social_value .society:hover{transform:scale(1.1);}
+#content .social_value .growth{position: relative; transition: 0.5s  all; z-index: 1;}
+#content .social_value .growth:hover{transform:scale(1.1);}
+#content .social_value .management{position: relative; transition: 0.5s  all;}
+#content .social_value .management:hover{transform:scale(1.1);}
+#content .social_value .sub_head{color:#666; font-size: 18px; font-weight: 700; text-align: center; margin-bottom: 145px;} 
+#content .growth{float: left; width: 400px; position: relative; top : -45px}
+#content .management{float: right; width: 400px; position: relative;}
+
+#content .txt_area{width: 400px; position: absolute; top :260px } 
+#content .txt_area dt{font-size: 48px; color: #fff; text-align: center; }
+#content .txt_area dd{font-size: 16px; margin-top: 50px; color: #fff; text-align: center; }
+#content .txt_area_center{width: 400px; position: absolute; top :60px } 
+#content .txt_area_center dt{color : #333333; font-size: 48px; text-align: center; padding-top: 10px;}
+#content .txt_area_center dd{color : #333333; font-size: 16px; margin-top: 25px; text-align: center; }
+
+#content .recruit{height: 700px; margin-bottom: 100px; opacity: .9; width: 100%; background: url(../images/recruit.jpg) no-repeat; background-size: cover;}
+#content .recruit_inner{text-align: center;}
+#content .recruit h3{font-size: 3.75em; padding: 100px 0; color: #fff;}
+#content .recruit p{font-size: 30px; line-height: 2em; margin-bottom: 100px; color: #fff; font-weight: 700;}
+#content .recruit a{font-size: 24px; line-height: 2em; display: inline-block; color: #fff; font-weight: 700; border: 1px solid #fff;
+    width: 300px; height: 50px; border-radius: 25px; transition: all .5s;}
+#content .recruit a:hover{ background-color: #f07800; transform: scale(1.1);}
+
+

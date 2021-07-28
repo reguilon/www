@@ -1,0 +1,40 @@
+/* 공정거래 내용 영역 */
+.sub_menu p{margin-left: -50px;}
+#content .message{overflow: hidden;}
+#content .message img:nth-child(2){float: left; width: 500px; margin-right: 20px; margin-top: 20px;}
+#content .message div{margin-bottom: 100px;}
+#content .message span{font-weight: bold; margin-bottom: 30px; display: inline-block; font-size: 22px;}
+#content p{line-height: 1.5em; font-size: 18px; margin-bottom: 20px; text-align: justify;}
+#content p:nth-of-type(7){margin: 50px 0 0 500px;}
+#content p:nth-of-type(8){margin: 30px 0 100px 500px;}
+
+#content .outline{overflow: hidden;}
+#content .outline p{line-height: 1.75em; font-size: 18px; margin-bottom: 20px; text-align: justify; margin-left: 30px;}
+#content .outline img{width: 350px; height: 220px; float: left; margin-right: 20px;}
+#content .outline .background span{font-size: 22px; font-weight: bold;}
+
+#content .main{overflow: hidden;}
+#content .main img{width: 350px; height: 220px; float: left; margin-right: 20px;}
+#content .main dt{font-size: 30px; margin: 40px 0 20px 15px; font-weight: 400;}
+#content .main dd{font-size: 18px; line-height: 1.5em; margin-left: 30px; text-align: justify; margin-bottom: 10px;}
+
+#content .sanctions{margin-bottom: 150px;}
+#content .sanctions ul{overflow: hidden;}
+#content .sanctions li{float: left; margin-right: 69px;}
+#content .sanctions dt{font-size: 24px; font-weight: 700; margin-bottom: 30px; text-align: center;}
+#content .sanctions dd{font-size: 16px; text-align: center; line-height: 1.5em;}
+#content .sanctions img{margin-bottom: 55px; display: inline-block; text-align: center;}
+#content .command img{padding-left: 10px;}
+#content .recommendation img{padding-left: 20px;}
+#content .publication img{padding-left: 10px;}
+
+.tabs .tab_menu{overflow: hidden; margin-bottom: 80px;}
+.tabs .tab_menu li{float: left;  padding-bottom:20px; border-bottom: 5px solid #fff;}
+.tabs .tab_menu li:hover{border-bottom: 5px solid #043f67;}
+
+.tabs a.tab {display:block; text-align: center; width: 171px;
+          font-size: 20px;  color: #ccc; font-weight: bold;padding: 20px 0;} 
+
+.tabs .contlist {display: none;
+    padding:15px;line-height:1.5em;} 
+.tabs .contlist h3{font-weight: bold; margin-bottom: 100px;}

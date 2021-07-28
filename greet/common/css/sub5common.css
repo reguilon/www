@@ -1,0 +1,21 @@
+/* sub5 공통 영역  */
+.visual{margin-top: 224px; position: relative; left: 50%; margin-left: -1000px; width: 2000px;}
+
+
+.sub_menu{width:1200px; position: absolute; left: 50%; margin-left: -600px; top:574px;}
+.sub_menu h3{position: absolute; left: 50%; top: -250px; font-size: 46px; font-weight: 400; color: #fff; margin-left: -100px;}
+.sub_menu p{position: absolute; left: 50%; top: -120px; color: #fff; font-size: 18px; font-weight: 700; margin-left: -100px;}
+.sub_menu ul{overflow: hidden; background: #f7f7f7; font-size: 22px;  width: 1200px; position: absolute; left: 50%;margin-left: -600px;
+top: -30px; box-shadow: 2px 2px 3px 1px #999;}
+.sub_menu li{float: left;}
+.sub_menu li a{display: block; width: 400px; font-size: 22px; padding: 20px 0; text-align: center;
+color: #333; font-weight: 400; transition: all .5s;}
+.sub_menu .current a{background: #043f67; color: #fff;}
+.sub_menu li a:hover{background: #043f67; color: #fff;}
+
+#content{width: 1200px; margin: 0 auto;}
+#content .line_map{font-size: 16px; text-align: right; margin:95px 0 30px;}
+#content h2{font-size: 60px; font-weight: 700; text-align: center; margin-bottom: 43px;}
+#content .line{width: 3px; height: 125px; background: #043f67; margin: 0 auto 40px;}
+
+h3{font-size: 46px; font-weight: 700; text-align: center; margin-bottom: 100px;}

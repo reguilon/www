@@ -1,0 +1,17 @@
+.sub_menu{width:100%; overflow: hidden; margin-top: 51px;}
+.sub_menu .current{background: #043f67; color: #fff;}
+.sub_menu li{width: 50%; height: fit-content; float: left; background: #50a7cf;}
+.sub_menu li a{display: block; width: 100%; text-align: center; font-size: 1.2em; font-weight: bold; color: #fff; padding: 15px 0;}
+#content{overflow: hidden; padding: 0 10px;}
+#content h2{font-size: 30px; text-align: center; margin-top: 50px; font-weight: bold;}
+#content h3{font-size: 26px; font-weight: bold; margin:50px 0 30px 0; text-align: center;}
+.technology img{width: 60%; margin: 20px auto; display: block;}
+.technology dt{font-weight: bold; font-size: 18px; margin-bottom: 10px;}
+.technology dd{font-size: 14px; text-align: justify; line-height: 1.5em; margin-bottom: 10px;}
+.technology h4{font-size: 20px; font-weight: bold; text-align: center; margin-bottom: 50px;}
+.technology h5{font-size: 16px; font-weight: bold; margin-bottom: 50px;}
+
+#content .technology table{border-collapse: collapse; margin-bottom: 30px;}
+#content .technology table tr{border: 2px solid #ccc;}
+#content .technology table th{font-size: 18px; background: #f7f7f7; padding: 30px 15px;}
+#content .technology table td{font-size: 14px; line-height: 1.5em; padding: 10px;}

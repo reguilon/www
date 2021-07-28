@@ -1,0 +1,98 @@
+/* Reset CSS  */
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top;
+-webkit-text-size-adjust:none;  }
+body {font-family:'돋움', Dotum; font-size:14px; color:#333;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul, ol, dl { list-style:none; }
+img, video {border:0; vertical-align:top; }
+a, a:link {color:#333;text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {color:#333;text-decoration:none; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+label { cursor:pointer; }
+.blind,legend,hr,caption { display:block; overflow:hidden; position:absolute; top:0; left:-1000em; }
+i,em,address { font-style:normal; font-weight:normal; }
+p,li,dd{ line-height:1.5em}
+.hidden, #skipNav{display: block; position: absolute; left:-1000%; top:0; width: 1px; height: 1px;
+    overflow: hidden; color: #fff;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+/* font-family: 'Roboto', sans-serif; font-weight:400 */
+
+/* 헤더 공통 영역 */
+#wrap{width:100%; overflow: hidden}
+#headerArea{position:fixed; z-index: 30; height: 135px;
+    background: rgba(0,0,0,.9); left:0; top: 0;
+    width: 100%}	
+#headerArea	.headerInner{width: 98%; margin: 0 1%;
+     overflow: hidden}
+#headerArea h1{ float: left; margin-top: 15px}
+#headerArea h1 a{color: #fff; text-decoration: none}	
+#headerArea .menuOpen{ position:absolute; right:20px; top:20px; display:none; color: #fff; font-size: 4em; margin: 3% 1% 0 0;}
+#headerArea #gnb{float: right;margin-top: 25px;}
+#headerArea #gnb ul{overflow: hidden}
+#headerArea #gnb ul li{float: left; margin-right: 15px;}
+#headerArea #gnb ul li a{color: #fff; text-decoration: none; font-size: 26px; display: block; margin: 30px 10px 0 0;}
+#headerArea h1 a{display: block; width: 240px; height: 90px; background: url(../images/logo.png) no-repeat; text-indent:-999px ; overflow: hidden;
+    margin: 10px 10px 0 0;}
+/* 본문 컨텐츠 영역 */
+#content{width: 94%; margin: 0 3%;}
+#content h3{font-size: 60px; font-weight: bold; text-align: center; padding: 55px 0;}
+section {width: auto; position: relative; overflow: hidden;}
+.box{background: rgba(255, 255, 255, .9);}
+.story{display: block; padding: 80px 0;}
+.story p{font-size: 24px; color:#333; padding: 0 30px 80px 30px; font-weight: bold;}
+.series{background:rgba(255, 255, 255, .9); overflow: hidden; padding-bottom: 80px;}
+.series ul{float: left; width: 18.5%; margin-left: 1%;}
+.series img:hover{transform: scale(1.1);}
+.series img{transition: all .5s; width: 100%;}
+.series ul span{margin: 10% 0 5% 40%; font-weight: bold; color: #369; font-size: 24px; display: block; padding-bottom: 5px;}
+.series p{font-size: 20px; font-weight: bold; color: rgb(11, 40, 87); text-align: center; margin-left: 20px;}
+.ul_box{overflow: hidden;}
+.ul_box li{overflow: hidden;}
+.more{width: 20%; background: rgb(70, 147, 241); display: block; margin: 5% 0 0 40%; padding: 1% 0; border-radius: 50%; text-align: center; font-size: 1.8em;  font-weight: bold;}
+.more:hover{color: #fff;}
+.character{padding-bottom: 80px;}
+.character h3{color: #fff;}
+.character ul{overflow: hidden;}
+.character li{float: left; margin: 25px 0 25px 1%; width: 23%; overflow: hidden;}
+.character li img{width: 100%; transition: .5s;}
+.character li img:hover{transform: scale(1.1);}
+.character li span{display: block; text-align: center; font-size: 22px; font-weight: bold; margin-top: 20px;}
+.character .box{padding-bottom: 25px; padding-top: 30px;}
+.trailer{padding-bottom: 80px;}
+.trailer .box{padding-bottom: 80px;}
+.trailer ul{overflow: hidden;}
+.trailer li{float: left; margin-left: 2%; width: 31%;}
+.trailer img{filter:grayscale(100%); width: 100%;}
+.trailer img:hover{filter: none;}
+.trailer span{display: block; margin: 50px 0; text-align: center; font-size: 22px; font-weight: bold;}
+
+.feature{background: rgba(255, 255, 255, .9); position: relative; padding-bottom: 30px;}
+
+
+/* 푸터 공통 영역 */
+#footerArea{background: #333; text-align: center; color: #fff; padding-bottom: 30px;}
+#footerArea img{padding: 50px 0;}
+#footerArea p{font-size: 22px; margin-bottom: 10px;}
+/* 상단이동 버튼 */
+.topMove{display:block; width: 60px;
+    height: 60px; background: rgba(0, 0, 0, .9); border-radius: 30px;
+  position: fixed; right:20px; margin-left: 650px; 
+    bottom:50px; 
+  }
+  .topMove span{position: absolute; left: 18px; top: 21px; color: #fff; font-weight: bold; font-size: 18px;}
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+	
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}

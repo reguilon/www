@@ -1,0 +1,22 @@
+/* 제품기술 내용 영역 */
+
+#content .technology h3{margin-bottom: 90px;}
+#content .technology h4{font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 50px;}
+#content .technology h5{font-size: 24px; font-weight: 700; margin-bottom: 50px;}
+
+#content .technology .outline{overflow: hidden;}
+#content .technology .outline img{float: left; margin:0 50px 100px; width: 300px; height: 300px;}
+#content .technology dt{font-size: 30px; font-weight: 700; margin: 30px 0 50px;}
+#content .technology dd{font-size: 18px; margin: 30px; line-height: 1.5em;}
+
+#content .technology table{border-collapse: collapse;}
+#content .technology table tr{border: 2px solid #ccc; width: 80px; height: 60px;}
+#content .technology table th{font-size: 22px; background: #f7f7f7; padding: 30px 15px;}
+#content .technology table td{font-size: 18px; line-height: 1.5em; width: 650px; padding: 10px;}
+
+#content .technology .ingot{overflow: hidden;}
+#content .technology .ingot img{float: left; margin: 20px 100px 80px 0; width: 300px; height: 203px;}
+#content .technology .pellet{overflow: hidden;}
+#content .technology .pellet img{float: left; margin: 30px 100px 70px 0; width: 300px;}
+#content .technology .fe_mn{overflow: hidden; margin-bottom: 150px;}
+#content .technology .fe_mn img{float: left; margin: 30px 100px 0 0; width: 300px; height: 203px;}

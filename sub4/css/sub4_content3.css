@@ -1,0 +1,47 @@
+.growth{position:relative; margin-bottom: 1100px;}
+.growth dt{position: absolute; text-align: center; color: #27526d; font-weight: bold; font-size: 22px;}
+.growth dd{position: absolute; color: #27526d; font-weight: 500; line-height: 1.5em;}
+.growth .text1{overflow: hidden;}
+.growth .text1 span:nth-of-type(1){font-size:38px; font-weight: bold; text-shadow: 1px 1px 1px gray; color:#0e2049; float:left}
+.growth .text1 span:nth-of-type(2){font-size:20px; color: #979fa6;float:left;margin-left: 10px;}
+.growth .box1,.box2,.box3{width: 300px; height: 300px; border: 10px solid #74a0c5; border-radius: 300px; position: absolute;}
+.growth .box4{width: 300px; height: 300px; border: 10px solid #bed2e2; background: #f9f9f9; border-radius: 300px; position: absolute;}
+.growth .box1{left: 450px; top: 270px;}
+.growth .box1 dt{left: 70px; top: 50px;}
+.growth .box1 dd{left: 50px; top: 140px;}
+.growth .box2{left: 100px; top: 820px;}
+.growth .box2 dt{right: 30px; top: 40px;}
+.growth .box2 dd:nth-of-type(1){right: 40px; top: 100px;}
+.growth .box2 dd:nth-of-type(2){right: 60px; top: 150px;}
+.growth .box2 dd:nth-of-type(3){right: 80px; top: 220px;}
+.growth .box3{right: 100px; top: 820px;}
+.growth .box3 dt{right: 40px; top: 50px;}
+.growth .box3 dd:nth-of-type(1){right: 20px; top: 130px;}
+.growth .box3 dd:nth-of-type(2){right: 20px; top: 160px;}
+.growth .box4{left: 450px; top: 620px;}
+.growth .box4 dt{color: #27526d; left: 100px; top: 50px;}
+.growth .box4 dd{color: #27526d; font-size: 18px; left: 30px; top: 110px;}
+.growth .box4::after{content: ''; display: block; position: absolute; top: -18px; left: -18px;border: 3px solid #bed2e2; border-radius: 65%; width: 110%; height: 110%;}
+
+.program{margin-bottom: 150px;}
+/* .program dl{border: 1px solid #ccc; overflow: hidden;}
+.program dt{font-size: 22px; text-align: justify; font-weight: bold; color: #27526d; background-color: #f9f9f9; border-bottom: 1px solid #ccc; padding: 20px;}
+.program dd{font-size: 18px; text-align: justify; padding: 20px; line-height: 1.5em;}
+.program img{float: left; width: 360px; height: 200px; margin: 0 20px 20px 10px;} */
+
+.program{width:1200px; border-bottom:1px solid #ddd; font-size: 18px;}  
+.program .hgroup{position:relative;margin:0 0 10px 0;}  
+.program .hgroup .all{position:absolute; top:130px; right:10px; color:#333; text-decoration:none; font-weight: bold;}
+.program .hgroup .all:hover{color: #f07800;}
+.program .trigger{font-weight: bold;}  
+.program ul{margin:0;padding:0;list-style:none}  
+.program .q{margin:0;border-top:1px solid #ddd; position: relative;}  
+.program .q a.trigger{display:block;padding:10px 15px;background:#fafafa;color:#333;text-align:left;text-decoration:none ;}  
+.program .hide .q a.trigger{}  
+.program .q a.trigger:hover,  
+.program .q a.trigger:active,  
+.program .q a.trigger:focus{background:#043f67;color:#fff} 
+.program .q span{display: block; position: absolute; right: 15px; top:10px} 
+.program .a{margin:0;padding:10px 15px;line-height:1.5;
+    padding-bottom:10px; margin-top:0px; margin-bottom:0px;
+    padding-top:10px;} 

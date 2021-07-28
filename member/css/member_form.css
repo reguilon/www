@@ -1,0 +1,23 @@
+#content{width: 1000px; margin: 50px 0 100px 500px;}
+header img{display: block; margin: 50px auto 0; text-align: center;}
+table{width: 90%; margin: 0 5%;}
+td{padding: 10px}
+th{display: none;}
+table tr:first-child td{padding: 1px; display: block; margin: 10px;}
+td{width: 80%;}
+input, select{padding: 5px; border-radius: 2px;
+      font-size: 1.5em;border: 0; border-bottom: 1px solid #ccc; outline: 0;}
+table tr:last-child td{text-align: center; padding: 20px 0}
+#id{width: 450px; margin-top: 15px;}
+#pass{width: 450px;}
+#pass_confirm{width: 450px;}
+#name{width: 450px;}
+#nick{width: 450px;}
+#hp1.hp{width: 130px;}
+#hp2.hp{width: 132px;}
+#hp3.hp{width: 132px;}
+#email1{width: 207px;}
+#email2{width: 207px;}
+form{width: 550px; border:3px solid #ccc; border-radius: 10px; margin: 0 auto;}
+table tr:last-child td{text-align: center; padding: 40px 0;}
+table tr:last-child td a{font-weight: bold; color: #fff; background: #043f67; display: inline-block; text-align: center; padding: 20px 50px; border-radius: 10px;}

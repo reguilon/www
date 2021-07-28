@@ -1,0 +1,23 @@
+/* 부패방지방침 내용 영역 */
+#content{margin-bottom: 150px;}
+#content p{line-height: 1.5em; font-size: 18px; text-align: justify; margin-left: 30px;}
+#content .anti_corruption{width: 1200px; overflow: hidden;}
+#content .acupuncture{overflow: hidden;}
+#content .acupuncture img{display: block; margin:0 30px 30px 0; width: 350px; height: 220px; float: left;}
+#content .acupuncture span{font-size: 28px; font-weight: 600; color: #043f67; float: right; width: 820px; margin: 20px 0 30px;}
+#content .anti_corruption p{font-size: 20px; font-weight: 500;}
+#content dt{font-size: 30px; margin: 20px 0 20px 15px; font-weight: 400;}
+#content dd{font-size: 18px; line-height: 1.5em; margin-left: 30px; text-align: justify;}
+#content .reference dd{margin-bottom: 20px;}
+#content .responsibility p{font-size: 18px; line-height: 1.5em; font-weight: bold; margin-top: 30px; color: #043f67;}
+
+.tabs .tab_menu{overflow: hidden; margin-bottom: 80px;}
+.tabs .tab_menu li{float: left;  padding-bottom:20px; border-bottom: 5px solid #fff;}
+.tabs .tab_menu li:hover{border-bottom: 5px solid #043f67;}
+
+.tabs a.tab {display:block; text-align: center; width: 150px;
+          font-size: 20px;  color: #ccc; font-weight: bold;padding: 20px 0;} 
+
+.tabs .contlist {display: none;
+    padding:15px;line-height:1.5em;} 
+.tabs .contlist h3{font-weight: bold; margin-bottom: 100px;}

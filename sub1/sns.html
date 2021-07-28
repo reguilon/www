@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS 가져오기</title>
+    <style>
+        *{margin: 0; padding: 0;}
+
+        .sns{width: 1200px; margin: 0 auto; overflow: hidden;}
+        .facebook{width: 500px; height: 800px; border: 3px solid #ccc; float: left;}
+        .twitter{width: 500px; height: 800px; border: 3px solid #ccc; float: right;
+                overflow-y: auto}
+    </style>
+</head>
+<body>
+
+    <div class="sns">
+        <div class="facebook">
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v10.0" nonce="p04vMkMR"></script>
+            <div class="fb-page" data-href="https://www.facebook.com/&#xc0dd;&#xd65c;&#xcf54;&#xb529;-218158748272233/" data-tabs="timeline" data-width="500" data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/&#xc0dd;&#xd65c;&#xcf54;&#xb529;-218158748272233/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/&#xc0dd;&#xd65c;&#xcf54;&#xb529;-218158748272233/">생활코딩</a></blockquote></div>
+        </div>
+
+        <div class="twitter">
+            <div class="snsContent">
+
+                <a class="twitter-timeline" data-lang="ko" data-theme="light" href="https://twitter.com/UNHCRKorea?ref_src=twsrc%5Etfw">Tweets by UNHCRKorea</a>
+               
+                <script async src="https://platform.twitter.com/widgets.js"></script>
+               
+               </div>
+        </div>
+    </div>
+    
+</body>
+</html>

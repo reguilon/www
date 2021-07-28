@@ -1,0 +1,19 @@
+#list_search {float: right; width: 1030px; margin: 50px 100px 20px 100px; border: 1px solid #043f67; padding: 10px; border-radius: 5px;}
+#list_search #list_search3{float: left; margin: 30px 10px 30px 30px;}
+#list_search #list_search3 .find{width: 150px; height: 30px;}
+#list_search #list_search4{float: left; margin: 30px 20px 0;}
+#list_search #list_search4 .search_bar{width: 690px; height: 25px;}
+#list_search #list_search5{float: left; height: 30px;}
+#list_search #list_search5 .search5{margin: 30px 0 0 0; height: 30px; width: 70px;}
+#list_search1{float: left; margin: 0 664px 0 90px;}
+.view{width: 70px; height: 30px;}
+#list_content{width: 1050px; padding: 20px; margin-left: 30px; overflow: hidden; clear: both;}
+#list_item{float: left; padding: 25px 1%; width: 48%;}
+#list_item2{font-size: 18px;}
+#list_item2 p {margin: 20px 0 20px 60px; }
+.list_img{padding-left: 62px;}
+#list_item4{margin-left: 60px;}
+#page_num{display: inline-block; margin: 30px 0 0 400px;}
+#list_item:nth-of-type(){margin-bottom: 30px;}
+#page_button #button{margin-bottom: 150px;}
+#page_button #button a {display: block; float: right; background: #004b84; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; width: 50px; height: 18px; padding: 10px; margin-left: 10px;}

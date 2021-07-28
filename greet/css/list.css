@@ -1,0 +1,26 @@
+#list_search {float: right; width: 1030px; margin: 50px 100px 20px 100px; border: 1px solid #043f67; padding: 10px; border-radius: 5px;}
+#list_search #list_search3{float: left; margin: 30px 10px 30px 30px;}
+#list_search #list_search3 .find{width: 150px; height: 30px;}
+#list_search #list_search4{float: left; margin: 30px 20px 0;}
+#list_search #list_search4 .search_bar{width: 690px; height: 25px;}
+#list_search #list_search5{float: left; height: 30px;}
+#list_search #list_search5 .search5{margin: 30px 0 0 0; height: 30px; width: 70px;}
+#list_search1{float: left; margin: 0 664px 0 90px;}
+.view{width: 70px; height: 30px;}
+#list_content{width: 1050px; margin-left: 50px; overflow: hidden;}
+#list_item{float: left; border-bottom: 1px solid #ccc; padding: 25px 0;}
+#list_item1{float: left; width: 80px; text-align: center;}
+#list_item2{float: left; width: 600px; text-align: center;}
+#list_item3{float: left; width: 100px; text-align: center;}
+#list_item4{float: left; width: 170px; text-align: center;}
+#list_item5{float: left; width: 100px; text-align: center;}
+#list_top_title{overflow: hidden; border: 1px solid #ccc; width: 1050px; margin: 20px 0 0 50px; height: 80px; color: #fff; background-color: #043f67; font-weight: bold; border-radius: 5px;}
+#list_top_title #list_title1{float: left; width: 80px; text-align: center; margin-top: 30px;}
+#list_top_title #list_title2{float: left; width: 600px; text-align: center; margin-top: 30px;}
+#list_top_title #list_title3{float: left; width: 100px; text-align: center; margin-top: 30px;}
+#list_top_title #list_title4{float: left; width: 170px; text-align: center; margin-top: 30px;}
+#list_top_title #list_title5{float: left; width: 100px; text-align: center; margin-top: 30px;}
+#page_num{display: inline-block; margin: 30px 0 0 400px;}
+#list_item:nth-of-type(){margin-bottom: 30px;}
+#page_button #button{margin-bottom: 150px;}
+#page_button #button a {display: block; float: right; background: #004b84; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; width: 50px; height: 18px; padding: 10px; margin-left: 10px;}

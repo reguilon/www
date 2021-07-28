@@ -1,0 +1,21 @@
+/* CI소개 내용 영역 */
+
+.sub_menu .current a{background: #043f67; color: #fff;}
+
+#content .background{background:rgb(240, 246, 255); padding: 50px 50px; border-radius: 20px; overflow: hidden;}
+#content img{float: left; padding:50px 0 20px;}
+#content .mean{overflow: hidden; width: 1200px; text-align: justify; margin-bottom: 80px;}
+#content .mean h3{margin-bottom: 80px;}
+#content .mean dt{font-size: 24px; margin-bottom: 20px; font-weight: 700;}
+#content .mean dd{line-height: 1.75em; font-size: 18px; }
+
+#content .motive{margin-bottom: 150px;}
+#content img{margin:0 80px 20px;}
+#content .motive h3{margin-bottom: 80px;}
+#content .motive dl{margin-left: 70px;}
+#content .motive dt{font-size: 24px; margin:20px 0; font-weight: 700;}
+#content .motive dd{font-size: 18px; line-height: 1.75em; margin-bottom: 20px;}
+
+.slideMenu{overflow: hidden; margin-bottom: 100px;}
+.link1,.link2,.link3{float: left;width: 600px; font-weight: bold; font-size: 20px; color: #999; text-align: center; padding-bottom: 20px; border-bottom: 5px solid #fff;}
+.link1:hover,.link2:hover,.link3:hover{color: #f07800; transition: all .3s; border-bottom: 5px solid #043f67; }

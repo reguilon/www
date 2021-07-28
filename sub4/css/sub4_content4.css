@@ -1,0 +1,19 @@
+.service{}
+#content span{color: #296a90; font-size: 26px; font-weight: bold; display: block; margin-bottom: 20px;}
+p{font-size: 20px; line-height: 1.5em; text-align: justify; margin-bottom: 20px;}
+img:nth-child(2){border: 1px solid #ccc; float: left; width: 350px; margin-right: 18px;}
+#content .logo{overflow: hidden; margin-bottom: 80px;}
+#content .logo p{width: 830px; float: right; font-size: 20px; line-height: 1.5em; margin-bottom: 20px; text-align: justify;}
+.configuration{margin-bottom: 80px;}
+.left{margin-left: 105px; margin-bottom: 10px;}
+.content{margin-bottom: 80px;}
+.content table{width: 1200px; border-top: 2px solid #015987; font-size: 1.3em; text-align: center; border-collapse: collapse;}
+.content thead tr{background-color: #f9f9f9;}
+.content thead th{padding: 20px;}
+.content tr{border-bottom: 1px solid #ccc;}
+.content td{padding: 20px;}
+.sharing{margin-bottom: 80px;}
+.support{overflow: hidden; margin-bottom: 80px;}
+.support img{float: left; width: 340px;}
+.support p{float: right; width: 840px;}
+.volunteer{margin-bottom: 150px;}

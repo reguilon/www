@@ -1,0 +1,45 @@
+/* 기업소개 내용 영역 */
+
+#content{margin-bottom: 150px;}
+#content h3{margin-bottom: 100px;}
+
+#content .vision{margin-bottom: 110px;}
+#content .vision span{color:#043f67}
+#content .vision p{font-size: 20px; line-height: 2em; text-align: center;}
+#content .vision p span{color:#f07800}
+#content .ellipse{font-size: 24px; font-weight: 700; text-align: center; width: 450px; height: 50px; background: #043f67; border-radius: 100px; color: #fff;
+    margin: 90px auto 30px; padding-top: 20px;}
+
+
+#content .conduct span{color: #f07800;}
+#content .conduct ul{overflow: hidden;}
+#content .conduct li{float: left; margin-left:50px;}
+#content .conduct img{margin:0 20px 55px;}
+#content .conduct dt{font-size: 30px; font-weight: 700; margin-bottom: 30px; text-align: center;}
+#content .conduct dd{font-size: 18px; text-align: center; line-height: 1.5em;}
+
+#content .core{margin-top: 80px; margin-bottom: 100px;}
+
+#content .core ul{overflow: hidden;}
+#content .core li{float: left; margin:0 30px 0 50px}
+#content .core dt{font-size: 30px; font-weight: 700; margin-bottom: 30px; text-align: center;}
+#content .core img{margin-bottom: 55px;}
+#content .core dd{font-size: 18px; text-align: center; line-height: 1.5em;}
+
+#content .charter{font-size: 18px;}
+#content .charter li{font-weight: bold; margin-bottom: 5px; font-size: 16px;}
+#content .charter .charter_line{border: 10px solid  #c59d44; padding: 30px; overflow: hidden; margin-top: 20px;}
+#content .span1{color: #054d81; font-size: 28px; font-weight: bold; margin:0 0 10px 400px; display:inline-block}
+#content .span2{color: #054d81; font-weight: bold;}
+#content p{text-align: center; margin-bottom: 30px; color: #666; line-height: 1.5em;}
+#content .one{color: #054d81; font-size: 20px; margin-left: 150px; float: left; margin-right: 60px;}
+#content .count{font-size: 30px; font-weight: bold;}
+#content .one_content{margin-bottom: 20px;}
+#content .two{color: #054d81; font-size: 20px; margin-left: 150px; float: left; margin-right: 80px;}
+#content .two_content{margin-bottom: 20px;}
+#content .three{color: #054d81; font-size: 20px; margin-left: 150px; float: left; margin-right: 45px;}
+.charter_sign{font-weight: bold; margin-top: 30px; margin-left: 450px;}
+
+.slideMenu{overflow: hidden; margin-bottom: 100px;}
+.link1,.link2,.link3,.link4{float: left; display: block; width: 300px; font-weight: bold; font-size: 20px; color: #999; text-align: center; border-bottom: 5px solid #fff; padding-bottom: 20px;}
+.link1:hover,.link2:hover,.link3:hover,.link4:hover{color: #f07800; transition: all .3s; border-bottom: 5px solid #043f67;}

@@ -1,0 +1,25 @@
+.sub_menu{width:100%; overflow: hidden; margin-top: 51px;}
+.sub_menu .current{background: #043f67; color: #fff;}
+.sub_menu li{width: 50%; height: fit-content; float: left; background: #50a7cf;}
+.sub_menu li a{display: block; width: 100%; text-align: center; font-size: 1.1em; font-weight: bold; color: #fff; padding: 15px 0;}
+#content{overflow: hidden; padding: 0 10px; margin-bottom: 80px; position: relative;}
+#content h2{font-size: 30px; text-align: center; margin-top: 50px; font-weight: bold;}
+#content h3{font-size: 26px; font-weight: bold; margin:50px 0 30px 0; text-align: center;}
+#content .service img{width: 100%; margin: 20px 0;}
+#content img{width: 30%; margin: 20px 0;}
+
+#content span{color: #296a90; font-size: 16px; font-weight: bold; display: block; margin-bottom: 20px;}
+p{font-size: 16px; line-height: 1.5em; text-align: justify; margin-bottom: 20px;}
+#content .logo{overflow: hidden; margin-bottom: 80px;}
+#content .logo p{font-size: 16px; line-height: 1.5em; text-align: justify;}
+.configuration{margin-bottom: 80px; font-size: 16px;}
+.left{margin-left: 105px; margin-bottom: 10px;}
+.content{margin-bottom: 50px;}
+.content table{width: 98%;margin: 0 1%; border-top: 2px solid #015987; text-align: center; border-collapse: collapse;}
+.content thead tr{background-color: #f9f9f9;}
+.content thead th{padding: 20px 5px; width: 20%;}
+.content tr{border-bottom: 1px solid #ccc;}
+.content td{padding: 20px;}
+.sharing{margin-bottom: 50px;}
+.support{margin-bottom: 50px;}
+#content img{width: 100%; margin: 20px 0;}

@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px;
+  color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+.english,.sub_head,.sub_head2,.more{font-family: 'Roboto', sans-serif !important;}
+h1,h2,h3,h4{font-family: 'Nanum Gothic', sans-serif; font-weight:700}
+.sub_menu a{font-family: 'Nanum Gothic'; font-weight: 400;}
+
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+
+  /* 헤드라인 폰트 연결 */
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+  /* font-family: 'Nanum Gothic', sans-serif; font-weight:700 */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+  /* font-family: 'Roboto', sans-serif; font-weight:400 */
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+  /*   font-family: 'Nanum Myeongjo', serif; font-weight: */ 
+
+
+/* 스킵네비게이션 */
+#skipNav{position:relative;width:100%;overflow:hidden; z-index: 20;}
+   #skipNav a{display:block; height:1px; margin-bottom:-1px;
+      overflow:hidden; text-align:center; font-weight: bold; text-decoration:none; color:#fff; font-size:16px;}
+   #skipNav a:focus{
+     height:auto;padding:10px 0; background:#f07800;}
+     
+
+
+/* 헤더공통영역 */
+.wrap{width: 100%; box-sizing: border-box; overflow: hidden;}
+
+
+#headerArea{position: fixed; width: 100%; background: #fff; z-index: 50; border-bottom: 1px solid #ccc;
+box-shadow: 0 0 10px #999; height: 223px;}
+#headerArea::before{content:''; display: block; width: 100%; height: 46px; position: absolute; left: 0; top: 0; ;background: #043f67; z-index: -1;}
+#headerArea .header_inner{width: 1200px; margin: 0 auto;}
+#headerArea .header_inner a:hover{color:#f07800; font-weight: 700;}
+#headerArea .header_top{overflow: hidden;}
+#headerArea .top_menu li{margin-left: 1000px;}
+#headerArea .top_menu li a{float: left; font-size: 1em; color: #fff; margin: 13px 16px 13px 0; font-family:'Nanum Gothic';}
+/* #headerArea .search{float: left; width: 1049px;}
+#headerArea .search form{margin: 13px 0 0 60px;}
+#headerArea input{margin-right: -6px;}
+#headerArea button{background: #999999; border: 0; height: 21px;}
+#headerArea .search i{ color: #fff;} */
+#headerArea .top_menu{float: right; width: 1200px;}
+#headerArea .logo a{display: block; width: 210px; height: 86px; background: url(../../images/logo.png) no-repeat; text-indent:-999px ; overflow: hidden;
+  margin: 20px auto 0; }
+
+  /*gnb영역*/
+  #gnb{margin:0 auto; width: 1200px;}
+  #gnb ul.dropdownmenu{float:left;}
+	#gnb ul.dropdownmenu li.menu{position:relative;float:left;width:20%; height: 70px; }
+	#gnb ul.dropdownmenu li h3{}
+    #gnb ul.dropdownmenu li a.depth1{display:block; width:240px; padding: 15px 0; 
+		      text-align: center; transition: all .5s; font-size: 24px;}
+	
+	
+    /* 2depth */
+	#gnb ul.dropdownmenu li ul{width:100%; height:253px; position:absolute;top:70px;left:0;
+		  padding:15px 0; line-height:2em; display:none;}
+
+	#gnb ul.dropdownmenu li ul li{ text-align:center; font-weight:bold; width: 240px;}
+	#gnb ul.dropdownmenu li ul li a{display:block; color:#333; padding:10px 0;transition: all .5s;}
+	#gnb ul.dropdownmenu li ul li a:hover{color:#fff; background: #043f67; border-radius: 5px; }
+
+
+/* #headerArea #gnb li{float: left; font-size: 1.5em; font-weight: 700; font-family: 'Nanum Gothic'; margin: 29px 0 29px 120px;} */
+
+/* 푸터공통영역 */
+#footerArea{width: 100%; background: #ccc; height: 211px;}
+#footerArea .footer_inner{margin:0 auto; width: 1200px;}
+#footerArea .footer_top{overflow: hidden; border-bottom: 1px solid #fff; height: 60px;}
+#footerArea .footer_menu{float: left; width: 925px;}
+#footerArea .footer_menu a{display: inline-block; margin: 20px 0 0 20px;}
+#footerArea .sns{float: right; }
+#footerArea .sns a{width: 40px; display: inline-block; margin-right: 20px; transition: all .5s;}
+#footerArea .sns a:hover{transform: scale(1.1);}
+#footerArea .sns a:last-child{margin-right: 0;}
+#footerArea .sns {margin: 10px 0 10px;}
+#footerArea .sns i{font-size: 33px;}
+#footerArea .footer_bottom{position: relative;}
+#footerArea .footer_bottom span{margin-left: 20px;}
+#footerArea .footer_bottom .add_copy{margin: 15px 0 0 30px; float: left; width: 782px;}
+#footerArea .footer_bottom img{width: 200px;}
+#footerArea .footer_logo{float: left; width: 86px; margin-top: 10px;}
+
+/* #footerArea .family{float: right;  height: 150px; position: relative; top: 18px; color: #333; font-size: 18px;}
+
+#footerArea .family a.family_arrow { display: inline-block; } */
+
+.select{width:150px; position:absolute; top: 0; right: 50%; margin-right: -600px;}
+.select .arrow{ display:block; font-size:1em;padding:3px 0 3px 20px; background-color: #9c9c9c; color: #fff; font-weight: bold;}
+.select .arrow:hover{color: #043f67; }
+.select .aList{ position:absolute; top:24px; left:-1px; width:150px; border:1px solid #ccc; background: #9c9c9c;
+              display: none;}
+.select .aList li{ line-height:1.5em; border-bottom:1px solid #ccc;}
+.select .aList li a{display:block;padding-left:20px; font-weight: bold;}
+.select .aList li a:hover{ background:#fff; color:#043f67}
+.select span{position: absolute; right: 10px; top: 4px;}
+
+/* 상단이동 버튼 */
+.topMove{display:block; width: 60px;
+  height: 60px; background: #043f67; border-radius: 30px;
+position: fixed; left:50%; margin-left: 650px; 
+  bottom:215px; 
+}
+.topMove span{position: absolute; left: 18px; top: 21px; color: #fff; font-weight: bold; font-size: 18px;}
+
+

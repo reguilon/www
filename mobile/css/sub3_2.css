@@ -1,0 +1,13 @@
+.sub_menu{width:100%; overflow: hidden; margin-top: 51px;}
+.sub_menu .current{background: #043f67; color: #fff;}
+.sub_menu li{width: 33.33%; height: fit-content; float: left; background: #50a7cf;}
+.sub_menu li a{display: block; width: 100%; text-align: center; font-size: 1.2em; font-weight: bold; color: #fff; padding: 15px 0;}
+#content{overflow: hidden; padding: 0 10px; margin-bottom: 80px;}
+#content h2{font-size: 30px; text-align: center; margin-top: 50px; font-weight: bold;}
+#content h3{font-size: 26px; font-weight: bold; margin:50px 0 30px 0; text-align: center;}
+#content img{width: 100%; margin: 20px 0;}
+#content .acupuncture span{display: block; font-size: 16px; font-weight: 600; color: #043f67; margin: 20px 0 30px;}
+#content h4{border-bottom:3px solid #f07800; padding-bottom: 10px; margin-top: 10px; font-size: 20px; font-weight: bold; color: #043f99;}
+.acupuncture dt{font-size: 16px; font-weight: bold; margin:15px 0;}
+.acupuncture dd{text-align: justify; line-height: 1.5em; margin-bottom: 15px;}
+.acupuncture p{text-align: justify; line-height: 1.5em;}

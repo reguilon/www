@@ -1,0 +1,99 @@
+.scrolldown{display: block;
+    width: 10%;
+    margin: 0 45%;}
+    #imgBG{
+        position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+       left:50%;
+       top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+       width:auto;
+       min-width:100%; /*동영상 너비를 꽉차게*/
+       height:auto;
+       min-height:100%; /*동영상 높이를 꽉차게*/
+      transform:translateX(-50%) translateY(-50%);
+       z-index:-100;
+       display: block;
+    }
+    
+    .down{display: block;
+        width: 100%;
+        font-size: 20px;
+        position: absolute;
+        font-weight: bold;
+        left: 0;
+        bottom: 5%;
+        animation: ani 1s infinite alternate;
+        text-align: center;
+    }
+    @keyframes ani {
+        0% { transform:scale(1); opacity:1; color:#fff;}
+        100% { transform:scale(1.2); opacity:0.8; color:#888;}
+    }	
+    .videoBox h2{position: absolute; top: 45%; width: 100%; left: 10%; text-align: center; font-size: 7em; font-weight: bold; margin-left: -10%; color: #fff;}
+    .series5 p{margin-bottom: 100px;}
+    #content{ width:100%; margin:0 auto;}
+    #content h3{font-size: 48px; text-align: center; padding: 20px 0; color: #6a5acd; margin: 100px 0;}
+    section{background: rgba(0, 0, 0, .8);}
+    section ul{width: 100%; overflow: hidden;}
+    .series1 li{float: left; width: 48%; margin: 5% 1%;}
+    section li img{width: 100%;}
+    .series2 li{float: left; width: 31%; margin: 5% 1%;}
+    .series3 li{float: left; width: 31%; margin: 5% 1%;}
+    section p{font-size: 2em; padding: 0 5%; color: #fff; line-height: 1.5em;}
+    .series4 li{float: left; width: 31%; margin: 5% 1%;}
+    .series5 li{float: left; width: 31%; margin: 5% 1%;}
+
+    /* 와이드 pc */
+@media screen and (max-width:1600px) {
+	#content{ width:100%; margin:0 auto;}
+    #content h3{font-size: 48px; text-align: center; padding: 20px 0; color: #6a5acd; margin: 100px 0;}
+    section{background: rgba(0, 0, 0, .8);}
+    section ul{width: 100%; overflow: hidden;}
+    .series1 li{float: left; width: 48%; margin: 5% 1%;}
+    section li img{width: 100%;}
+    .series2 li{float: left; width: 31%; margin: 5% 1%;}
+    .series3 li{float: left; width: 31%; margin: 5% 1%;}
+    section p{font-size: 2em; padding: 0 5%; color: #fff; line-height: 1.5em;}
+    .series4 li{float: left; width: 31%; margin: 5% 1%;}
+    .series5 li{float: left; width: 31%; margin: 5% 1%;}
+}
+
+
+/* 일반pc */
+@media screen and (max-width:1024px) {
+	#content{width: auto; margin: 0;}
+	#headerArea .menuOpen{ display:block}
+    #headerArea #gnb{width:100%; background: rgba(0, 0, 0, .9); display:none;
+              position:absolute; top:110px; left:0}
+	#headerArea #gnb li{ float:none; margin:0; text-align:center; width: 100%; padding-bottom: 30px; }
+    .series1 ul li:nth-of-type(1){width: 98%;}
+    .series1 ul li:nth-of-type(2){display: none;}
+	.series2 li{width: 48%;}
+    .series2 ul li:first-child{width: 98%;}
+    .first{width: 90%; display: block; margin: 0 auto;}
+    .series3 li{width: 48%;}
+    .series3 ul li:first-child{width: 98%;}
+    section p{font-size: 1.5em; padding: 0 5%; color: #fff;}
+    .series4 li{width: 48%;}
+    .series4 ul li:first-child{width: 98%;}
+    .series5 li{width: 48%;}
+    .series5 ul li:first-child{width: 98%;}
+}
+
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	#content{width: auto; margin: 0;}
+    .inner_wrap li{width: 98%;}
+    .inner_wrap img{width: 55%;}
+    .series1 ul li{width: 98%;}
+    .series1 ul li img{width: 90%; display: block; margin: 0 auto;}
+    .series2 ul li{width: 98%;}
+    .series2 ul li img{width: 90%; display: block; margin: 0 auto;}
+    .series3 ul li{width: 98%;}
+    .series3 ul li img{width: 90%; display: block; margin: 0 auto;}
+    .series4 ul li{width: 98%;}
+    .series4 ul li img{width: 90%; display: block; margin: 0 auto;}
+    .series5 ul li{width: 98%;}
+    .series5 ul li img{width: 90%; display: block; margin: 0 auto;}
+}
